@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Dark Glowing Aura Background -->
+    <path
+        android:pathData="M60,60m-52,0a52,52 0 1,0 104,0a52,52 0 1,0 -104,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="60"
+                android:centerY="60"
+                android:gradientRadius="52"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#4D6366F1" />
+                <item android:offset="0.6" android:color="#223B82F6" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Background Mini App Icons floating behind shield -->
+    <!-- App 1: Emerald Chat -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M 22,30 A 4,4 0 0 1 26,26 L 38,26 A 4,4 0 0 1 42,30 L 42,42 A 4,4 0 0 1 38,46 L 26,46 A 4,4 0 0 1 22,42 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 28,34 A 4,4 0 1 1 36,34 A 4,4 0 1 1 28,34 Z" />
+
+    <!-- App 2: Electric Blue Social -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M 78,30 A 4,4 0 0 1 82,26 L 94,26 A 4,4 0 0 1 98,30 L 98,42 A 4,4 0 0 1 94,46 L 82,46 A 4,4 0 0 1 78,42 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 84,33 L 92,33 L 92,40 L 84,40 Z" />
+
+    <!-- App 3: Magenta Photos -->
+    <path
+        android:fillColor="#EC4899"
+        android:pathData="M 20,58 A 4,4 0 0 1 24,54 L 36,54 A 4,4 0 0 1 40,58 L 40,70 A 4,4 0 0 1 36,74 L 24,74 A 4,4 0 0 1 20,70 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 26,65 L 34,61 L 34,69 Z" />
+
+    <!-- App 4: Amber Finance -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 80,58 A 4,4 0 0 1 84,54 L 96,54 A 4,4 0 0 1 100,58 L 100,70 A 4,4 0 0 1 96,74 L 84,74 A 4,4 0 0 1 80,70 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 86,61 L 94,66 L 86,66 Z" />
+
+    <!-- Outer Gold Highlight Contour -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M 36,30 L 84,30 C 88,30 91,33 91,37 C 91,63 76,85 60,95 C 44,85 29,63 29,37 C 29,33 32,30 36,30 Z" />
+
+    <!-- Shield Face with Blue & Purple Neon Gradient -->
+    <path
+        android:pathData="M 37,31 L 83,31 C 87,31 89.5,34 89.5,38 C 89.5,62 75,83 60,93 C 45,83 30.5,62 30.5,38 C 30.5,34 33,31 37,31 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="30"
+                android:endX="88"
+                android:endY="94"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2563EB" />
+                <item android:offset="0.5" android:color="#4F46E5" />
+                <item android:offset="1.0" android:color="#7C3AED" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glassmorphic highlight reflection -->
+    <path
+        android:pathData="M 38,33 L 60,33 C 60,46 53,65 38,74 C 33,60 33,44 38,33 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="35"
+                android:startY="33"
+                android:endX="60"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#59FFFFFF" />
+                <item android:offset="0.5" android:color="#1AFFFFFF" />
+                <item android:offset="1.0" android:color="#00FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Padlock - White Shackle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M 51,55 L 51,48 A 9,9 0 0 1 69,48 L 69,55" />
+
+    <!-- Padlock - White Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 46,55 A 4.5,4.5 0 0 1 50.5,50.5 L 69.5,50.5 A 4.5,4.5 0 0 1 74,55 L 74,73 A 4.5,4.5 0 0 1 69.5,77.5 L 50.5,77.5 A 4.5,4.5 0 0 1 46,73 Z" />
+
+    <!-- Padlock - Deep Indigo Keyhole -->
+    <path
+        android:fillColor="#312E81"
+        android:pathData="M 60,59 A 2.6,2.6 0 1 0 60,64.2 L 58.6,71 L 61.4,71 L 60,64.2 Z" />
+
+    <!-- Golden Sparkle Accent -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M 83,26 L 84.5,22 L 86,26 L 90,27.5 L 86,29 L 84.5,33 L 83,29 L 79,27.5 Z" />
+
+</vector>

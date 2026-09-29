@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VaultHide – Private App Locker &amp; Privacy Vault</title>
+  <meta name="description" content="VaultHide is a privacy-focused Android application designed to protect access to compatible apps through a private vault experience.">
+  <link rel="canonical" href="https://vaulthide.app/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vaulthide.app/">
+  <meta property="og:title" content="VaultHide – Private App Locker &amp; Privacy Vault">
+  <meta property="og:description" content="VaultHide is a privacy-focused Android application designed to protect access to compatible apps through a private vault experience.">
+  <meta property="og:image" content="https://vaulthide.app/og-image.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://vaulthide.app/">
+  <meta property="twitter:title" content="VaultHide – Private App Locker &amp; Privacy Vault">
+  <meta property="twitter:description" content="VaultHide is a privacy-focused Android application designed to protect access to compatible apps through a private vault experience.">
+  <meta property="twitter:image" content="https://vaulthide.app/og-image.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="brand">
+        <div class="brand-logo">
+          <svg viewBox="0 0 100 100" class="logo-svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#3B82F6"/>
+                <stop offset="50%" stop-color="#4F46E5"/>
+                <stop offset="100%" stop-color="#8B5CF6"/>
+              </linearGradient>
+            </defs>
+            <path d="M 20,24 L 80,24 C 84,24 87,27 87,31 C 87,60 70,82 50,91 C 30,82 13,60 13,31 C 13,27 16,24 20,24 Z" fill="url(#shieldGrad)" stroke="#FBBF24" stroke-width="3"/>
+            <path d="M 42,48 L 42,40 A 8,8 0 0 1 58,40 L 58,48" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+            <rect x="36" y="48" width="28" height="22" rx="4" fill="#FFFFFF"/>
+            <circle cx="50" cy="56" r="2.5" fill="#312E81"/>
+            <polygon points="48.5,56 51.5,56 52,63 48,63" fill="#312E81"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">VaultHide</span>
+          <span class="brand-tagline">Privacy Vault</span>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#security">Security</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#devices">Supported Devices</a>
+        <a href="#about">About</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#get-app" class="btn btn-primary nav-cta">Get VaultHide</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-container">
+      <div class="founder-pill">
+        <span class="gold-icon">★</span>
+        <span>Founder &amp; CEO — <strong>अनंतान्य राजकुमार</strong></span>
+      </div>
+
+      <h1 class="hero-title">Keep Your Apps Private</h1>
+      <p class="hero-subheading">Your Apps. Your Privacy. Your Control.</p>
+
+      <p class="hero-desc">
+        VaultHide is a privacy-focused Android application designed to protect access to compatible apps through a private vault experience.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#get-app" class="btn btn-primary btn-lg">Get VaultHide</a>
+        <a href="#how-it-works" class="btn btn-outline btn-lg">Learn More</a>
+      </div>
+
+      <div class="hero-badge-row">
+        <span class="badge">🔒 Biometric Prompt</span>
+        <span class="badge">🛡️ Salted SHA-256 Storage</span>
+        <span class="badge">⚡ 100% Offline Vault</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">CORE CAPABILITIES</span>
+        <h2>Designed for Personal Device Privacy</h2>
+        <p>Built exclusively for device owners seeking discrete, tamper-resistant access protection.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card feature-card">
+          <div class="card-icon blue">🔐</div>
+          <h3>Biometric Authentication</h3>
+          <p>Seamless unlock using your device's native fingerprint scanner or face recognition via official AndroidX BiometricPrompt.</p>
+        </div>
+
+        <div class="card feature-card">
+          <div class="card-icon purple">🔢</div>
+          <h3>Master PIN &amp; Password</h3>
+          <p>Dual fallback protection with 4-digit rapid PIN entry and high-entropy master password for vault configuration.</p>
+        </div>
+
+        <div class="card feature-card">
+          <div class="card-icon gold">⏱️</div>
+          <h3>Auto-Lock Inactivity Rules</h3>
+          <p>Configurable timeouts (Immediately, 30s, 1m, 5m), automatic lock when screen turns off, and lock when switching tasks.</p>
+        </div>
+
+        <div class="card feature-card">
+          <div class="card-icon green">📱</div>
+          <h3>Installed App Discovery</h3>
+          <p>Instantly detect and manage installed messaging, finance, and social apps using legitimate Android launcher query APIs.</p>
+        </div>
+
+        <div class="card feature-card">
+          <div class="card-icon blue">🛡️</div>
+          <h3>Legitimate Architecture</h3>
+          <p>Honest transparency: respects system bounds without requiring root access, dangerous permissions, or suspicious background hooks.</p>
+        </div>
+
+        <div class="card feature-card">
+          <div class="card-icon purple">📜</div>
+          <h3>Security Audit Logs</h3>
+          <p>Inspect local chronological records of unlock events and blocked unauthorized attempts stored securely on-device.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Security Section -->
+  <section id="security" class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">SECURITY SPECS</span>
+        <h2>Honest, Cryptographic Security</h2>
+        <p>We believe in verifiable cryptography over marketing hyperbole. No "100% unhackable" buzzwords—just solid engineering.</p>
+      </div>
+
+      <div class="security-grid">
+        <div class="card">
+          <h3>Cryptographic Salt &amp; Hashes</h3>
+          <p>Passwords and PINs are hashed using SHA-256 combined with a 256-bit cryptographically secure random salt (CSPRNG). Never stored in plain text.</p>
+        </div>
+
+        <div class="card">
+          <h3>Isolated Room SQLite Database</h3>
+          <p>Protected app metadata and security event logs are sequestered in an encrypted sandboxed Room database accessible only by the VaultHide process.</p>
+        </div>
+
+        <div class="card">
+          <h3>Progressive Lockout Defense</h3>
+          <p>Automatic 30-second cooldown protection kicks in after 5 consecutive incorrect authentication attempts to thwart automated brute-force attacks.</p>
+        </div>
+
+        <div class="card">
+          <h3>Zero External Telemetry</h3>
+          <p>Zero cloud servers. Zero analytics trackers. Zero third-party advertising SDKs. Your secrets never leave your device.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">WALKTHROUGH</span>
+        <h2>How VaultHide Works</h2>
+        <p>Simple 3-step setup to establish your personal privacy vault.</p>
+      </div>
+
+      <div class="grid grid-3 steps-grid">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h3>Initialize Your Vault</h3>
+          <p>Set a master 4-digit PIN, create an optional recovery password, and enable fingerprint/face unlock.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h3>Select Compatible Apps</h3>
+          <p>Browse your installed messaging, social, photo, or banking apps and add them to your protected list.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h3>Enjoy Protected Access</h3>
+          <p>Launch apps through VaultHide with biometric verification. The vault auto-locks when you leave or turn off the screen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Supported Devices Section -->
+  <section id="devices" class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">COMPATIBILITY</span>
+        <h2>Supported Devices</h2>
+        <p>Engineered for all modern Android phones, foldables, and tablets.</p>
+      </div>
+
+      <div class="card device-card">
+        <div class="device-icon">📱</div>
+        <div class="device-info">
+          <h3>Android 8.0 Oreo through Android 15 &amp; Beyond</h3>
+          <p>Compatible with Google Pixel, Samsung Galaxy, OnePlus, Xiaomi, Motorola, and all standard Android devices running API 24 or newer.</p>
+          <ul class="device-specs">
+            <li>✔ Capacitive &amp; Under-Display Fingerprint Scanners</li>
+            <li>✔ Class 3 Biometric Face Unlock</li>
+            <li>✔ Edge-to-Edge Dynamic Material You Displays</li>
+            <li>✔ Works 100% Offline with Airplane Mode</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About & Leadership Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">LEADERSHIP</span>
+        <h2>About VaultHide</h2>
+        <p>Founded on the principle that your apps and personal data belong solely to you.</p>
+      </div>
+
+      <div class="card founder-spotlight-card">
+        <div class="founder-badge-large">
+          <div class="founder-avatar">★</div>
+          <div class="founder-details">
+            <span class="founder-label">FOUNDER &amp; CEO</span>
+            <h3 class="founder-name">अनंतान्य राजकुमार</h3>
+            <p class="founder-sub">Founder &amp; CEO — अनंतान्य राजकुमार</p>
+          </div>
+        </div>
+        <div class="founder-quote">
+          <p>“VaultHide was created with a clear purpose: to return control back to the device owner through transparent, legitimate, and cryptographically verified application protection.”</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy Policy Section -->
+  <section id="privacy" class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">PRIVACY FIRST</span>
+        <h2>Privacy Policy Summary</h2>
+        <p>What we access, what we store, and how your data is protected.</p>
+      </div>
+
+      <div class="card privacy-summary-card">
+        <h4>1. Information Accessed</h4>
+        <p>VaultHide only queries package names of installed launcher apps to allow you to protect them. We do not access files, chat logs, photos, or passwords of other apps.</p>
+
+        <h4>2. Permissions Required</h4>
+        <p><code>USE_BIOMETRIC</code> for fingerprint/face authentication and <code>VIBRATE</code> for haptic feedback. No access to location, camera, or microphone.</p>
+
+        <h4>3. Local Storage Only</h4>
+        <p>All hashes and lists are kept exclusively on local device memory in Room SQLite. Zero bytes are sent to any remote server.</p>
+
+        <h4>4. User Data Erasure</h4>
+        <p>Users can execute a complete, irreversible data wipe at any time via the "Reset Vault" option in Security Settings.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">GET IN TOUCH</span>
+        <h2>Contact &amp; Support</h2>
+        <p>Questions about VaultHide or device privacy? Reach out directly.</p>
+      </div>
+
+      <div class="card contact-card">
+        <p><strong>Official Support:</strong> <a href="mailto:support@vaulthide.internal">support@vaulthide.internal</a></p>
+        <p><strong>Privacy Enquiries:</strong> <a href="mailto:privacy@vaulthide.internal">privacy@vaulthide.internal</a></p>
+        <p class="contact-disclaimer">VaultHide is designed for personal privacy on device owner equipment. We do not assist with bypassing enterprise or parental controls.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="footer-title">VaultHide</span>
+        <p>Your Apps. Your Privacy. Your Control.</p>
+        <p class="footer-founder">Founder &amp; CEO — <strong>अनंतान्य राजकुमार</strong></p>
+      </div>
+      <div class="footer-copy">
+        <p>&copy; 2026 VaultHide. All rights reserved.</p>
+        <p class="footer-disclaimer">Privacy-focused • Protected access • Secure authentication</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
